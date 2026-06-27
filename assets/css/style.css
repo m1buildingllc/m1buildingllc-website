@@ -498,12 +498,14 @@ color:#cfcfcf;
 .contact-container{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:50px;
+    gap:60px;
+    align-items:start;
 }
 
 .contact-info h3{
     color:#C89B3C;
     margin-bottom:25px;
+    font-size:30px;
 }
 
 .contact-info p{
@@ -520,61 +522,40 @@ color:#cfcfcf;
 
 .contact-form input,
 .contact-form textarea{
-
+    width:100%;
     background:#222;
-
+    color:#fff;
     border:1px solid #333;
-
-    color:white;
-
-    padding:18px;
-
     border-radius:10px;
-
+    padding:18px;
     font-size:16px;
-
 }
 
 .contact-form textarea{
-
     min-height:180px;
-
-    resize:vertical;
-
+    resize:none;
 }
 
 .contact-form button{
-
     background:#C89B3C;
-
+    color:#fff;
     border:none;
-
-    padding:18px;
-
     border-radius:10px;
-
-    color:white;
-
+    padding:18px;
     font-size:18px;
-
+    font-weight:600;
     cursor:pointer;
-
     transition:.3s;
-
 }
 
 .contact-form button:hover{
-
-    transform:translateY(-3px);
-
+    background:#d8ab48;
 }
 
 @media(max-width:900px){
 
 .contact-container{
-
-grid-template-columns:1fr;
-
+    grid-template-columns:1fr;
 }
 
 }
