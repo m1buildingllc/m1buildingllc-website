@@ -22,6 +22,12 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
+        document.getElementById("projectsTitle").innerHTML = "Our Latest Projects";
+
+document.getElementById("project1Title").innerHTML = "Asphalt Paving";
+document.getElementById("project2Title").innerHTML = "Landscaping";
+document.getElementById("project3Title").innerHTML = "Concrete Works";
+
         document.getElementById("whyTitle").innerHTML = "Why Choose M1 BUILDING LLC";
 
 document.getElementById("why1").innerHTML = "Quality Materials";
@@ -55,6 +61,12 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
+        document.getElementById("projectsTitle").innerHTML = "Մեր իրականացրած նախագծերը";
+
+document.getElementById("project1Title").innerHTML = "Ասֆալտապատման աշխատանքներ";
+document.getElementById("project2Title").innerHTML = "Բարեկարգման աշխատանքներ";
+document.getElementById("project3Title").innerHTML = "Բետոնային աշխատանքներ";
+
         document.getElementById("whyTitle").innerHTML = "Ինչու ընտրել M1 BUILDING LLC";
 
 document.getElementById("why1").innerHTML = "Որակյալ նյութեր";
@@ -87,6 +99,12 @@ document.getElementById("navContact").innerHTML = "Կապ";
     }
 
     if(lang === "ru"){
+
+        document.getElementById("projectsTitle").innerHTML = "Наши проекты";
+
+document.getElementById("project1Title").innerHTML = "Асфальтирование";
+document.getElementById("project2Title").innerHTML = "Благоустройство";
+document.getElementById("project3Title").innerHTML = "Бетонные работы";
 
         document.getElementById("whyTitle").innerHTML = "Почему выбирают M1 BUILDING LLC";
 
