@@ -857,3 +857,22 @@ color:#cfcfcf;
 .faq-item.active .faq-answer{
     display:block;
 }
+
+.language-switcher{
+    display:flex;
+    gap:10px;
+}
+
+.language-switcher button{
+    background:transparent;
+    border:1px solid #C89B3C;
+    color:white;
+    padding:8px 14px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.language-switcher button:hover{
+    background:#C89B3C;
+}
