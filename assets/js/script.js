@@ -1,5 +1,7 @@
 emailjs.init("3VK5q2fX3g8WL7AYX");
-
+(function () {
+    emailjs.init("3VK5q2fX3g8WL7AYX");
+})();
 
 // =========================
 // FAQ
