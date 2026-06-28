@@ -1,6 +1,23 @@
 function setLanguage(lang){
 
     if(lang === "en"){
+        document.getElementById("service1Text").innerHTML =
+"Professional asphalt paving for roads, parking lots and private areas.";
+
+document.getElementById("service2Text").innerHTML =
+"High-quality concrete construction and finishing services.";
+
+document.getElementById("service3Text").innerHTML =
+"Premium paving stone installation for residential and commercial projects.";
+
+document.getElementById("service4Text").innerHTML =
+"Durable curb installation with precision and quality.";
+
+document.getElementById("service5Text").innerHTML =
+"Smart irrigation systems for gardens and green spaces.";
+
+document.getElementById("service6Text").innerHTML =
+"Modern outdoor lighting solutions for landscapes and buildings.";
 
         document.getElementById("aboutSubtitle").innerHTML = "ABOUT US";
 
@@ -53,7 +70,23 @@ document.getElementById("navContact").innerHTML = "Contact";
     }
 
     if(lang === "hy"){
+document.getElementById("service1Text").innerHTML =
+"Մասնագիտական ասֆալտապատման աշխատանքներ ճանապարհների, ավտոկայանատեղիների և մասնավոր տարածքների համար։";
 
+document.getElementById("service2Text").innerHTML =
+"Բարձրորակ բետոնային աշխատանքներ և ավարտական լուծումներ։";
+
+document.getElementById("service3Text").innerHTML =
+"Սալաքարերի պրոֆեսիոնալ տեղադրում բնակելի և առևտրային տարածքներում։";
+
+document.getElementById("service4Text").innerHTML =
+"Բորդյուրների ճշգրիտ և դիմացկուն տեղադրում։";
+
+document.getElementById("service5Text").innerHTML =
+"Ժամանակակից ոռոգման համակարգերի տեղադրում այգիների և կանաչ տարածքների համար։";
+
+document.getElementById("service6Text").innerHTML =
+"Արտաքին լուսավորության ժամանակակից լուծումներ բակերի և շենքերի համար։";
         document.getElementById("aboutSubtitle").innerHTML = "ՄԵՐ ՄԱՍԻՆ";
 
 document.getElementById("aboutTitle").innerHTML =
@@ -105,7 +138,23 @@ document.getElementById("navContact").innerHTML = "Կապ";
     }
 
     if(lang === "ru"){
+document.getElementById("service1Text").innerHTML =
+"Профессиональное асфальтирование дорог, парковок и частных территорий.";
 
+document.getElementById("service2Text").innerHTML =
+"Высококачественные бетонные и отделочные работы.";
+
+document.getElementById("service3Text").innerHTML =
+"Профессиональная укладка тротуарной плитки для жилых и коммерческих объектов.";
+
+document.getElementById("service4Text").innerHTML =
+"Качественная установка бордюров с высокой точностью.";
+
+document.getElementById("service5Text").innerHTML =
+"Современные системы полива для садов и зеленых зон.";
+
+document.getElementById("service6Text").innerHTML =
+"Современные решения наружного освещения для зданий и территорий.";
         document.getElementById("aboutSubtitle").innerHTML = "О НАС";
 
 document.getElementById("aboutTitle").innerHTML =
