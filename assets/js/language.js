@@ -1,6 +1,8 @@
 function setLanguage(lang){
 
     if(lang === "en"){
+        document.getElementById("galleryTitle").innerHTML =
+"Project Gallery";
         document.getElementById("project1Text").innerHTML = "Yerevan, Armenia";
 document.getElementById("project2Text").innerHTML = "Residential Project";
 document.getElementById("project3Text").innerHTML = "Commercial Area";
@@ -73,7 +75,8 @@ document.getElementById("navContact").innerHTML = "Contact";
     }
 
     if(lang === "hy"){
-
+document.getElementById("galleryTitle").innerHTML =
+"Նախագծերի պատկերասրահ";
         document.getElementById("project1Text").innerHTML = "Երևան, Հայաստան";
 document.getElementById("project2Text").innerHTML = "Բնակելի նախագիծ";
 document.getElementById("project3Text").innerHTML = "Առևտրային տարածք";
@@ -145,6 +148,9 @@ document.getElementById("navContact").innerHTML = "Կապ";
     }
 
     if(lang === "ru"){
+
+        document.getElementById("galleryTitle").innerHTML =
+"Галерея проектов";
         document.getElementById("project1Text").innerHTML = "Ереван, Армения";
 document.getElementById("project2Text").innerHTML = "Жилой проект";
 document.getElementById("project3Text").innerHTML = "Коммерческий объект";
