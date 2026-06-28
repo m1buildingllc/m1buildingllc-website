@@ -290,10 +290,13 @@ if (lightbox && lightboxImg && closeLightbox) {
 
 
 const contactForm = document.getElementById("contactForm");
+const sendBtn = document.getElementById("sendBtn");
 
 contactForm.addEventListener("submit", function (e) {
 
     e.preventDefault();
+    sendBtn.disabled = true;
+sendBtn.innerHTML = "Sending...";
 
     emailjs.send("service_itlvtyp", "template_rjb22il", {
 
@@ -314,12 +317,17 @@ contactForm.addEventListener("submit", function (e) {
     showToast("✅ Message sent successfully!","success");
 
     contactForm.reset();
+       
+       sendBtn.disabled = false;
+sendBtn.innerHTML = "Send Message";
 
 })
 
    .catch(function (error) {
 
     showToast("❌ Failed to send message.","error");
+       sendBtn.disabled = false;
+sendBtn.innerHTML = "Send Message";
 
     console.log(error);
 
