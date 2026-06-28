@@ -1194,3 +1194,37 @@ html{
     color:#fff;
     cursor:pointer;
 }
+
+.floating-buttons{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    z-index: 9999;
+}
+
+.floating-buttons a,
+.floating-buttons button{
+    width: 64px;
+    height: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.floating-buttons img{
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    display: block;
+}
