@@ -268,3 +268,42 @@ if (lightbox && lightboxImg && closeLightbox) {
     });
 
 }
+
+
+const contactForm = document.querySelector(".contact-form");
+
+contactForm.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    emailjs.send("service_itlvtyp", "template_rjb22il", {
+
+        name: document.getElementById("nameInput").value,
+
+        email: document.getElementById("emailInput").value,
+
+        phone: document.getElementById("phoneInput").value,
+
+        message: document.getElementById("messageInput").value,
+
+        time: new Date().toLocaleString()
+
+    })
+
+    .then(function () {
+
+        alert("✅ Your message has been sent successfully!");
+
+        contactForm.reset();
+
+    })
+
+    .catch(function (error) {
+
+        alert("❌ Failed to send message.");
+
+        console.log(error);
+
+    });
+
+});
