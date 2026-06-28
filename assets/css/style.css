@@ -1035,3 +1035,19 @@ nav{
 .whatsapp img{
     width:34px;
 }
+
+@media (max-width:900px){
+
+    .projects-grid{
+        grid-template-columns:1fr;
+    }
+
+    .services-grid{
+        grid-template-columns:1fr;
+    }
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+}
