@@ -1162,3 +1162,35 @@ html{
 
     transition:width .1s linear;
 }
+
+.lightbox{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.95);
+
+    display:none;
+    justify-content:center;
+    align-items:center;
+
+    z-index:10000;
+}
+
+.lightbox.active{
+    display:flex;
+}
+
+.lightbox img{
+    max-width:90%;
+    max-height:90%;
+    border-radius:15px;
+}
+
+.close-lightbox{
+    position:absolute;
+    top:30px;
+    right:40px;
+
+    font-size:45px;
+    color:#fff;
+    cursor:pointer;
+}
