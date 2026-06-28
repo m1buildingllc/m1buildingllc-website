@@ -1,3 +1,17 @@
+function showToast(message,type){
+
+    const toast=document.getElementById("toast");
+
+    toast.innerHTML=message;
+    toast.className="toast show "+type;
+
+    setTimeout(()=>{
+        toast.className="toast";
+    },3000);
+
+}
+
+
 emailjs.init("3VK5q2fX3g8WL7AYX");
 (function () {
     emailjs.init("3VK5q2fX3g8WL7AYX");
