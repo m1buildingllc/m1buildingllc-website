@@ -1064,3 +1064,7 @@ nav a.active::after{
     background:#C89B3C;
     margin-top:6px;
 }
+
+html{
+    scroll-behavior:smooth;
+}
