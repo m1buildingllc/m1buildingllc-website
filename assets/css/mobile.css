@@ -93,3 +93,69 @@ html[lang="ru"] button{
 }
 
 }
+
+/* ======================================
+   SMALLER FLOATING ICONS (MOBILE)
+====================================== */
+
+@media (max-width:768px){
+
+   .floating-buttons{
+
+right:10px;
+
+bottom:12px;
+
+gap:8px;
+
+}
+
+.floating-buttons a{
+
+width:42px;
+
+height:42px;
+
+border-radius:50%;
+
+}
+
+.floating-buttons img{
+
+width:42px;
+
+height:42px;
+
+display:block;
+
+border-radius:50%;
+
+}
+
+#backToTop{
+
+right:58px;
+
+bottom:12px;
+
+width:42px;
+
+height:42px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+#backToTop img{
+
+width:42px;
+
+height:42px;
+
+}
+
+}
