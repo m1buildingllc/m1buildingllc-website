@@ -1,5 +1,6 @@
 function setLanguage(lang){
 
+    document.documentElement.lang = lang;
 
     if(lang === "en"){
 
